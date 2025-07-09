@@ -22,3 +22,30 @@ This is a complete admin dashboard built using **Next.js (Pages Router)**, with 
 ```txt
 Email: oneclickdrive@gmail.com
 Password: 123456
+
+## 🧪 Run Locally
+
+```bash
+git clone https://github.com/jafuj856/Oneclivkdrive.git
+cd Oneclivkdrive
+npm install
+npm run dev
+Open in browser: http://localhost:3000
+
+## 🔗 Live Demo
+👉 https://oneclivkdrive.vercel.app
+
+##📂 Key Project Structure
+bash
+Copy
+Edit
+/pages
+  ├── index.tsx              # Login Page
+  ├── dashboard.tsx          # Admin Dashboard
+  └── api/listings.ts        # Listings API
+
+/components
+  └── EditFile.tsx           # Edit modal (MUI)
+
+middleware.ts                # Cookie-based Auth Protection
+tailwind.config.js           # TailwindCSS Configuration
